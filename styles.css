@@ -1,0 +1,67 @@
+.primary_color {
+  color: #fd6e0a;
+}
+/* Open San Font */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: blog;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Common Button */
+.primary_btn {
+  background-color: #fd6e0a;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+header {
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_title {
+  font-weight: 900;
+  font-size: 45px;
+}
+.nav_menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.nav_menu ul li {
+  list-style-type: none;
+  margin-right: 51px;
+}
+.nav_menu ul {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero_left {
+  width: 580px;
+  margin: 10px 0 0 230px;
+}
+.hero_left_title,
+.hero_left_greatings,
+.hero_left_description,
+.hero_left_btn {
+  padding: 10px;
+}
