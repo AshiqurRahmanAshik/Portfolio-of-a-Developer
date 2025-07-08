@@ -65,3 +65,34 @@ nav {
 .hero_left_btn {
   padding: 10px;
 }
+.about {
+  width: 60%;
+  margin: 100px auto;
+  background-color: #fff8f3;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.address {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.services_intro {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.service_items {
+  display: flex;
+  gap: 30px;
+  width: 80%;
+  margin: 30px auto;
+}
+.service_item {
+  background-color: #fff8f3;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 0 5px 25px 0px rgb(219, 219, 219);
+}
