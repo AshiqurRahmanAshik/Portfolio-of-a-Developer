@@ -96,3 +96,19 @@ nav {
   border: 1px solid;
   box-shadow: 0 5px 25px 0px rgb(219, 219, 219);
 }
+.resume_container {
+  width: 70%;
+  margin: 0 auto;
+}
+.resume_container button {
+  display: block;
+  margin: 50px auto;
+}
+.resume_container_title {
+  text-align: center;
+  margin-top: 100px;
+}
+.resume {
+  display: flex;
+  gap: 150px;
+}
